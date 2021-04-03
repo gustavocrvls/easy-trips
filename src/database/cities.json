@@ -1,1 +1,32 @@
-[{"name":"Marabá","accommodation":50,"ticket":800}]
+[
+  {
+    "id": 1,
+    "name":"Marabá",
+    "accommodation":50,
+    "ticket":300
+  },
+  {
+    "id": 2,
+    "name":"São Paulo",
+    "accommodation":100,
+    "ticket":800
+  },
+  {
+    "id": 3,
+    "name":"Goiânia",
+    "accommodation":80,
+    "ticket":500
+  },
+  {
+    "id": 4,
+    "name":"Belém",
+    "accommodation":50,
+    "ticket":200
+  },
+  {
+    "id": 5,
+    "name":"Frio de Janeiro",
+    "accommodation": 120,
+    "ticket":800
+  }
+]

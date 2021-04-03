@@ -8,38 +8,40 @@ module.exports = {
 
   create (req, res) {
     const { 
-      user,
+      total,
+      cityId,
 
-      entry_date,
-      exit_date,
+      nAdults,
+      nKids,
+      nElderly,
 
-      city,
-            
-      kids,
-      adults,
-      elderly,
+      nRooms,
 
+      goingDate,
+      backDate,
+
+      email,
       card,
-      value,
-      plots,
+      plots
     } = req.body;
 
     tickets.push({
       id: new Date().getTime(),
-      user,
+      total,
+      cityId,
 
-      entry_date,
-      exit_date,
+      nAdults,
+      nKids,
+      nElderly,
 
-      city,
-            
-      kids,
-      adults,
-      elderly,
+      nRooms,
 
+      goingDate,
+      backDate,
+
+      email,
       card,
-      value,
-      plots,
+      plots
     });
 
     fs.writeFile('src/database/accommodations.json', JSON.stringify(tickets), t => console.log(t))
