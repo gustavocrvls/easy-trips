@@ -19,9 +19,7 @@ module.exports = {
       goingDate,
       backDate,
 
-      email,
-      card,
-      plots
+      paiment
     } = req.body;
 
     tickets.push({
@@ -37,9 +35,7 @@ module.exports = {
       goingDate,
       backDate,
 
-      email,
-      card,
-      plots
+      paiment
     });
 
     fs.writeFile('src/database/tickets.json', JSON.stringify(tickets), t => console.log(t))
