@@ -27,3 +27,25 @@ As rotas presentes no sistema são:
 - GET: cities: retorna todas as cidades presentes na base de dados;
 - POST: tickets: adiciona um objeto com as informações de passagem na base de dados;
 - POST: accommodations: adiciona um objeto com as informações de hospedagem na base de dados;
+
+### Executar o Projeto
+
+1. Instale as dependências:
+
+```
+  yarn
+```
+ou
+```
+  npm install
+```
+
+2. Inicie o projeto:
+
+```
+  yarn start
+```
+ou
+```
+  npm start
+```
